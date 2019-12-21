@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="assets/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="assets/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="assets/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="assets/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="assets/favicon/mstile-310x310.png" />
+
+    <link rel="stylesheet" href="assets/yotta/style.css">
+    <link rel="stylesheet" href="assets/material/main.min.css">
+    <link rel="stylesheet" href="assets/css/main.build.min.css">
+  </head>
+  <body data-barba="wrapper">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+      <table>
+        <tr>
+          <td>
+            <div class="loading-content">
+              <img src="assets/media/logo-hd.png" />
+              <!-- <p>Welcome to<br>YY-301 WiFi Speaker</p> -->
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+    <!-- Body Main -->
+    <main class="body-base no-overflow" data-barba="container" data-barba-namespace="select" style="opacity: 0">
+
+
+      <!-- Navigation -->
+      <div class="app-navigation" id="dynamic-menu">
+        <table class="menu-table">
+          <tr>
+            <td>
+              <a class="menu-item" data-href="index">Play Music</a>
+              <a class="menu-item" data-href="wifi-settings">WiFi Settings</a>
+              <a class="menu-item" data-href="pair-bluetooth">Pair bluetooth keys</a>
+              <a class="menu-item" just-href="tune/index.html">Tuning</a>
+              <a class="menu-item" data-href="rescan-drives">Rescan drives</a>
+              <a class="menu-item" data-href="restart-renderer">Restart Renderer</a>
+              <a class="menu-item" data-href="a">Customize</a>
+              <a class="menu-item" data-href="#">Check for updates</a>
+              <a class="menu-item" data-href="#">Default language</a>
+              <a class="menu-item" data-href="#">About</a>
+            </td>
+          </tr>
+        </table>
+
+        <div class="footer-action back-nav">
+          <span class="ico ico-back"></span>
+          <span>BACK</span>
+        </div>
+        <div class="footer-action close-nav">
+          <span class="ico ico-close"></span>
+        </div>
+      </div>
+
+
+      <!-- Body Content -->
+      <div class="app-container">
+
+
+        <!-- Header -->
+        <div class="header">
+          <div class="drawer">
+            <span class="ico ico-drawer"></span>
+          </div>
+          <table cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <span>Configure WiFi</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+
+
+        <!-- Body Main -->
+        <div class="body-main">
+        <table cellspacing="0" cellpadding="0">
+        <tr><td class="content">
+      
+          <div class="main-from">
+            <form class="cmf-base">
+
+              <!-- Drop Down Gender Select -->
+              <div class="cmf-group cmf-select">
+                <label for="gender">Select SSID</label>
+                <input name="gender" id="gender" type="text" readonly="true" placeholder="Select Your Gender">
+                <div class="cmf-underline"></div>
+                <small class="form-text text-muted hidden">Please select your gender.</small>
+                <div class="cmf-dropdown">
+                  <ul>
+                    <!-- Option 1 -->
+                    <li>SSID 1</li>
+                    <!-- Option 2 -->
+                    <li>SSID 2</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- First Name Field -->
+              <div class="cmf-group mb-2">
+                <label for="first-name">Enter SSID</label>
+                <input name="first-name" id="first-name" type="text" placeholder="Enter Your First Name" autocomplete="off"/>
+                <div class="cmf-underline"></div>
+              </div>
+
+              <!-- First Name Field -->
+              <div class="cmf-group mb-4">
+                <label for="first-name">Password</label>
+                <input name="first-name" id="first-name" type="text" placeholder="Enter Your First Name" autocomplete="off"/>
+                <div class="cmf-underline"></div>
+              </div>
+    
+            </form>
+          </div>
+
+          <div class="content-block mb-6">
+            <a class="button" data-href="select-configuration">Connect WiFi</a>
+          </div>
+      
+        </td></tr>
+        </table>  
+        </div>    
+        <!-- END: Body Main -->
+
+
+        <!-- Footer -->
+        <div class="footer">
+          <img src="assets/media/logo-hd.png" />
+        </div>
+      </div>
+    </main>
+
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/barba.umd.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/material/main.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'yotta';
+  src:  url('fonts/yotta.eot?u994hj');
+  src:  url('fonts/yotta.eot?u994hj#iefix') format('embedded-opentype'),
+    url('fonts/yotta.ttf?u994hj') format('truetype'),
+    url('fonts/yotta.woff?u994hj') format('woff'),
+    url('fonts/yotta.svg?u994hj#yotta') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ico {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'yotta' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-power:before {
+  content: "\e90e";
+}
+.ico-loop:before {
+  content: "\e90d";
+}
+.ico-bluetooth:before {
+  content: "\e90c";
+}
+.ico-play:before {
+  content: "\e90b";
+}
+.ico-back:before {
+  content: "\e90a";
+}
+.ico-speaker-test:before {
+  content: "\e909";
+}
+.ico-ok:before {
+  content: "\e908";
+}
+.ico-speaker-flat:before {
+  content: "\e907";
+}
+.ico-stereo:before {
+  content: "\e906";
+}
+.ico-mono:before {
+  content: "\e905";
+}
+.ico-auto-detect:before {
+  content: "\e904";
+}
+.ico-wifi-hotspot:before {
+  content: "\e902";
+}
+.ico-wifi:before {
+  content: "\e903";
+}
+.ico-close:before {
+  content: "\e901";
+}
+.ico-drawer:before {
+  content: "\e900";
+}

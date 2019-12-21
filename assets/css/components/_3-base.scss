@@ -1,0 +1,99 @@
+body, html {
+  height: 100%;
+  background-color: #fff;
+  color: #555;
+
+  font-family: 'Montserrat', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6,  p, a{
+  margin: 0;
+  line-height: 150%;
+}
+
+b{
+  font-weight: 500;
+}
+
+strong{
+  font-weight: 700;
+}
+
+.body-base{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  .app-navigation{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2d3738;
+    z-index: 99;
+    transform: translateX(-100%);
+    transition: transform 0.3s 0.3s ease-in;
+  }
+
+  .app-navigation.open{
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+
+  .app-container{
+    position: relative;
+    height: 100%;
+
+    .body-main{
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+
+      >table{
+        width: 100%;
+        min-height: 100%;
+        height: auto;
+        overflow: auto;
+
+        .content{
+          padding: 100px 0;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+.no-overflow{
+  overflow: hidden;
+}
+
+.wait{
+  transition: opacity .2s;
+}
+
+.no-display{
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.success{
+  color: #8CC63F;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+.main-from {
+  width: 70%;
+  margin: 0 auto;
+}

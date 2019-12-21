@@ -1,0 +1,48 @@
+.loading-screen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+
+  > table {
+    width: 100%;
+    height: 100%;
+
+    .loading-content{
+      text-align: center;
+
+      >img {
+        height: 60px;
+      }
+
+      >p{
+        padding: 100px 0 0;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.loading-indicator{
+  position: fixed;
+  width: 300%;
+  height: 4px;
+  top: 100px;
+  opacity: 0.8;
+
+  background: -moz-linear-gradient(left, #fff 0%, #fff 35%, #F1592A 35%, #f1592a 65%, #fff 65%, #fff 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #fff), color-stop(35%, #fff), color-stop(35%, #F1592A), color-stop(65%, #f1592a), color-stop(65%, #fff), color-stop(100%, #fff));
+  background: -webkit-linear-gradient(left, #fff 0%, #fff 35%, #F1592A 35%, #f1592a 65%, #fff 65%, #fff 100%);
+  background: -o-linear-gradient(left, #fff 0%, #fff 35%, #F1592A 35%, #f1592a 65%, #fff 65%, #fff 100%);
+  background: linear-gradient(to right, #fff 0%, #fff 35%, #F1592A 35%, #f1592a 65%, #fff 65%, #fff 100%);
+
+  animation: loading_indicator 0.8s ease-in-out infinite;
+}
+
+@keyframes loading_indicator{
+  0%{left: -200%}
+  100%{left: 0}
+}

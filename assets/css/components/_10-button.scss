@@ -1,0 +1,15 @@
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #304446;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2), -1px 1px 2px rgba(0,0,0,0.2);
+}
+
+a.button.btn-lg {
+  display: block;
+  width: 150px;
+  text-align: center;
+  margin: 20px auto;
+}

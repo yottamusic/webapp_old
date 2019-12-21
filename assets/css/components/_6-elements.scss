@@ -1,0 +1,84 @@
+.content-block {
+  text-align: center;
+  margin: 20px auto;
+
+  p {
+    font-weight: 500;
+  }
+}
+
+.round-cta {
+  margin: 0 auto;
+
+  >div {
+    background-color: #7F8C8D;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 40px;
+    margin: 0 auto;
+
+    >span{
+      line-height: 80px !important;
+    }
+  }
+
+  >p {
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+.round-cta.active >div {
+  background-color: #8CC63F;
+}
+
+
+.round-ico{
+  margin: 0 auto;
+
+  >div {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #7F8C8D;
+    font-size: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+  }
+  >p {
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+
+.wifi-list-base {
+  max-width: 90%;
+  margin: 0 auto;
+  height: 220px;
+  box-shadow: 0 0 0 1px #ddd;
+  text-align: left;
+  overflow-y: scroll;
+
+  .wifi-ssid{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+
+    .ico{
+      margin-right: 10px;
+    }
+
+    >span{
+      font-weight: 500;
+    }
+  }
+
+  .no-wifi{
+    text-align: center;
+  }
+}
