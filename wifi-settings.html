@@ -31,7 +31,7 @@
     <meta name="msapplication-wide310x150logo" content="assets/favicon/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="assets/favicon/mstile-310x310.png" />
 
-    <link rel="stylesheet" href="assets/yotta/style.css">
+    <link rel="stylesheet" href="assets/icons/style.css">
     <link rel="stylesheet" href="assets/material/main.min.css">
     <link rel="stylesheet" href="assets/css/main.build.min.css">
   </head>
@@ -119,16 +119,12 @@
 
               <!-- Drop Down Gender Select -->
               <div class="cmf-group cmf-select">
-                <label for="gender">Select SSID</label>
-                <input name="gender" id="gender" type="text" readonly="true" placeholder="Select Your Gender">
+                <label for="gender">No SSID found</label>
+                <input name="gender" id="gender" type="text" readonly="true" placeholder="Select Your Gender" disabled>
                 <div class="cmf-underline"></div>
                 <small class="form-text text-muted hidden">Please select your gender.</small>
                 <div class="cmf-dropdown">
-                  <ul>
-                    <!-- Option 1 -->
-                    <li>SSID 1</li>
-                    <!-- Option 2 -->
-                    <li>SSID 2</li>
+                  <ul id="ssid-list-container">
                   </ul>
                 </div>
               </div>
@@ -172,6 +168,7 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/material/main.min.js"></script>
-    <script src="assets/js/main.min.js"></script>
+    <script src="functions/js/configuration.min.js"></script>
+    <script src="assets/js/ui.main.min.js"></script>
   </body>
 </html>
