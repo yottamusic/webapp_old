@@ -119,13 +119,31 @@
               <span class="ico ico-loop"></span>
             </div>
             <p style="width: 280px; margin: 10px auto;">Rescan devices to find recently connected <b>USB storage devices</b></p>
-          </div>
-
-          <div class="content-block mb-6">
-            <a class="button" href="#" onClick="rescanDrives()">Rescan Drives</a>
           </div> -->
 
-          <p class="text-center">Customize Page</p>
+          <div class="main-from">
+
+            <form class="cmf-base" method="post" action="/uploads/config">
+
+              <div class="row">
+                <div class="col-12 mb-4">
+                  <!-- Email Field -->
+                  <div class="cmf-group mt-4">
+                    <label for="upload-file">Upload Configuration File</label>
+                    <input name="upload-file" id="upload-file" type="file"/>
+                    <div class="cmf-underline"></div>
+                    <small class="form-text text-muted">Please upload only JSON files</small>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="text-center">
+                <input class="button" type="submit" value="Upload File"/>
+              </div>
+  
+            </form>
+            
+          </div>
       
         </td></tr>
         </table>  
