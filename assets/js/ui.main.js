@@ -420,11 +420,7 @@ function pre_set_wifi_login_form(){
 // =========================================================
 function function_sequence(){
   try{ ui_functions() } catch(err) {}
-  try{ get_wifi_mode() } catch(err) {}
-  try{ create_speaker_list() } catch(err) {}
-  try{ confirm_selection() } catch(err) {}
-  try{ create_wifi_list() } catch(err) {}
-  try{ pre_set_wifi_login_form() } catch(err) {}
+  try{ getSSIDList() } catch(err) {}
   try{ cmf_init(); } catch(e) {}
 }
 
